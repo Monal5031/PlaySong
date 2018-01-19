@@ -1,9 +1,20 @@
 # PlaySong
 A small django app to play song or music via a direct link in background of the page.
 
+# Important:
+Make sure to use virtualenv to ensure that there are no dependency errors.
+To install and activate a virtualenv
+```
+pip3 install virtualenv
+virtualenv play-venv
+source play-venv/bin/activate
+```
+
 # Requirements:
-- python==3.x
-- django==1.10
+Make sure to use python version 3.3+
+```
+pip3 install -r requirements.txt
+```
 
 # Run Project
 ```
